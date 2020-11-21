@@ -9,6 +9,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bay_jekyll_theme (1.0.14)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -258,6 +259,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bay_jekyll_theme
   github-pages (~> 209)
   jekyll-feed (~> 0.6)
   kramdown-parser-gfm
