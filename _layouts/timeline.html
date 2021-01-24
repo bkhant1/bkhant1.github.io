@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <link href="{{ site.baseurl }}/css/timeline.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
+</head>
+<html>
+    
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+        <div class="page-content">
+            <div class="wrapper">
+                <h1 class="page-heading" style="margin-left: 30px; margin-top:0px">Carrier</h1>
+                {{ page.content | markdownify }}
+                <ul class="timeline">
+                    {% for event in page.events %}
+                        {% capture class %}
+                        {% endcapture %}
+
+                        <li class="{{ class }}">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive"
+                                    src="{{ event.image.src }}"
+                                    alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <strong>{{ event.title }}</strong>
+                                    <h4 class="subheading"></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="work-text">{{ event.description }}</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+    {% include footer.html %}
+
+    {% include foot.html %}
+</body>
+
+</html>
