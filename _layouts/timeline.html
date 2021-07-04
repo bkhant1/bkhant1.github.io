@@ -11,9 +11,9 @@
     {% include header.html %}
         <div class="page-content">
             <div class="wrapper">
-                <h1 class="page-heading" style="margin-left: 30px; margin-top:0px">Carrier</h1>
+                <h1 class="page-heading" style="margin-top:0px; line-height:1.7">Carrier</h1>
                 {{ page.content | markdownify }}
-                <ul class="timeline">
+                <ul class="timeline override-ul-ol">
                     {% for event in page.events %}
                         {% capture class %}
                         {% endcapture %}
