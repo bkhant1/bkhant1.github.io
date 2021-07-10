@@ -22,6 +22,5 @@ events:
     image: 
       src: /assets/img/companies/omegame.png
       alt: sand
-    description: In charge of support, test automation, development and optimization of the fingerprint coding API. Support to integration teams around the world. Design and development of image processing algorithms and functionalities in C and C++ . Build and test automation. Multithreading and code optimizations on image processing algorithms. 
-
+    description: Added physical simulation capabilities to the multimedia editor developed by the start-up. Integration of Bullet - a physical engine - to the system. 3D algorithm to interface Bullet with the editor and to automatize conversion of graphical objects into physical objects.
 ---
