@@ -18,7 +18,7 @@ email: bkhantun@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Quentin Bernard's website, about me, my work and my projects
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://quentin-bernard.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bkhantun.xyz/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  bkhant1
 
@@ -41,7 +41,8 @@ header:
     - name: Home
       slug: / # <-- index.md
     - name: Projects # <-- work.md
-    - name: Career # <-- cv.md
+    - name: Career # <-- career.md
+    # - name: Blog # <-- blog.md
 
 footer:
   show_powered_by: true
