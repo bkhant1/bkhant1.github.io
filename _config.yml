@@ -27,7 +27,14 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+
 remote_theme: eliottvincent/bay
+
+# Sass configuration for modern syntax support
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: development
 
 header:
   pages:
